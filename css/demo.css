@@ -1,0 +1,125 @@
+/* #34495E */
+
+html,body {
+	background-color: #20243F;
+}
+
+.container {
+  width: 970px !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: #34495E !important;
+}
+
+.nav-avatar {
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+	position: relative;
+	top: -6px;
+	border: 3px double #ccc;
+	float: left;
+}
+
+.navbar-nav > li > a {
+	font-size: 14px;
+	padding: 15px 21px;
+	line-height: 23px;
+	font-weight: 700;
+}
+
+.navbar-inverse {
+    background-color: #394168;
+}
+
+/*.panel {*/
+    /*border: none;*/
+/*}*/
+
+/*.panel-bg-color ul li{*/
+    /*background-color: #394168;*/
+/*}*/
+
+/*.panel-bg-color .panel-heading {*/
+    /*background-color: #00a7af;*/
+/*}*/
+
+.panel {
+    border-color: #394168;
+}
+
+.panel .panel-heading{
+    background-color: #00A7AF;
+}
+
+.panel > .list-group
+{
+    margin-bottom: 0;
+}
+.panel > .list-group .list-group-item
+{
+    border-width: 1px 0;
+}
+.panel > .list-group .list-group-item:first-child
+{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.panel > .list-group .list-group-item:last-child
+{
+    border-bottom: 0;
+}
+.panel-heading + .list-group .list-group-item:first-child
+{
+    border-top-width: 0;
+}
+
+.panel-default .list-group-item
+{
+    color: #000;
+    background-color: #394168;
+    border-color: #394168;
+}
+
+.panel > .list-group .list-group-item
+{
+    border-bottom: 2px solid #20243F;
+    color: #eee;
+    font-size: 12px;
+}
+
+.panel > .list-group .list-group-item:hover
+{
+    background-color: #50587F;
+}
+
+a.list-group-item:hover, a.list-group-item:focus {
+    text-decoration: none;
+    background-color: #50587F;
+}
+
+
+.panel-default > .panel-heading {
+    color: #eee;
+    background-color: #00A7AF;
+    font-weight: bold;
+    text-align: center;
+    border-color: #117a65;
+}
+
+.panel-default .panel-footer {
+    background-color: #394168;
+    border-top: 2px;
+    border-color: #117a65;
+}
+
+.panel .btn-xs {
+    padding: 3px 4px;
+    font-size: 10px;
+    line-height: 1.083;
+    border-radius: 3px;
+}
+
+
